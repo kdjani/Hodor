@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.hodor.MainActivity"
+    tools:ignore="MergeRootFrame">
+ 
+  	<RelativeLayout
+  	    android:layout_width="match_parent"
+  	    android:layout_height="match_parent"
+  	    tools:context=".MainActivity"
+  	    tools:ignore="UselessParent" >
+
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginRight="1dp"
+		    android:orientation="vertical"
+		    tools:ignore="UselessParent" >    
+		
+		    <Button
+		        android:id="@+id/invite_button"
+		        style="@style/ButtonAppTheme"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@+string/invite_buttontext"
+		        android:textSize="36sp"
+		        android:padding="20dp"
+		        android:textColor="#fff" 
+		        android:background="@color/button_background_purple_color"
+		        android:textStyle="bold"/>
+	
+			<Button
+		        android:id="@+id/add_button"
+		        style="@style/ButtonAppTheme"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/add_buttontext"
+		        android:textSize="48sp"
+		        android:padding="14dp"
+		        android:textColor="#fff" 
+		        android:background="@color/button_background_green_color"
+		        android:textStyle="bold"/>
+		    
+	        <EditText
+	            android:id="@+id/user_add"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:gravity="center"
+	            android:inputType="textPersonName|textNoSuggestions" 
+	            android:visible = "false"
+				android:hint = "@string/add_hint"
+		        android:padding="25dp"
+	            >
+	            
+	        </EditText>
+			<ListView
+		        android:id="@+id/user_list"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:divider="#00FFCC00"
+		        android:dividerHeight = "0px" >
+		    </ListView>
+
+	        	    	    	    
+		</LinearLayout>
+       
+    	</RelativeLayout>
+ </FrameLayout>
+

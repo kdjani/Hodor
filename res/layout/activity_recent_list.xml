@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+            
+            android:id="@+id/view_flipper"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+			>
+            
+        <!--  The child Views/Layout to flip -->
+        
+        <!--  Layout 1 for 1st Screen -->
+            <LinearLayout
+                	android:id="@+id/textviewrow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+				    <TextView
+				        android:id="@+id/user"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text=""
+				        android:textAppearance="@style/AppTheme"
+				        android:textSize="36sp"
+				        android:typeface="normal"
+				        android:padding="20dp"
+				        android:textColor="#fff"
+				        />
+                    
+            </LinearLayout>
+            
+             <!--  Layout 2 for 2nd Screen -->
+            
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="right"
+                    android:weightSum="3"
+                    android:orientation="horizontal" >
+	                <Button
+				        android:id="@+id/block_button"
+				        style="@style/ButtonAppTheme"
+				        android:layout_width="128dp"
+				        android:layout_height="wrap_content"
+				        android:text="@string/block_buttontext"
+				        android:textSize="21sp"
+				        android:gravity="center"
+				        android:layout_gravity="right"
+				        android:layout_weight = "1"
+				        android:textColor="#fff" 
+				        android:background="@color/button_background_pink_color"
+            			android:focusable="false"
+						android:focusableInTouchMode="false"
+						android:paddingTop="30dp"
+						android:paddingBottom="29dp"
+						android:textStyle="bold"
+				        />
+	                
+                   	    <Button
+				        android:id="@+id/delete_button"
+				        style="@style/ButtonAppTheme"
+				        android:layout_width="132dp"
+				        android:layout_height="wrap_content"
+				        android:text="@string/delete_buttontext"
+				        android:textSize="21sp"
+				        android:textColor="#fff" 
+				        android:gravity="center"
+				        android:layout_weight = "1"
+				        android:layout_gravity="right"
+				        android:background="@color/button_background_yellow_color"
+			            android:focusable="false"
+						android:focusableInTouchMode="false"
+						android:paddingTop="30dp"
+						android:paddingBottom="29dp"
+						android:textStyle="bold"
+				        />	
+                   	    <Button
+				        android:id="@+id/cancel_button"
+				        style="@style/ButtonAppTheme"
+				        android:layout_width="134dp"
+				        android:layout_height="wrap_content"
+				        android:text="@string/cancel_buttontext"
+				        android:textSize="21sp"
+				        android:textColor="#fff" 
+				        android:gravity="center"
+				        android:layout_weight = "1"
+				        android:layout_gravity="right"
+				        android:background="@color/button_background_light_blue_color"
+            			android:focusable="false"
+						android:focusableInTouchMode="false"
+						android:paddingTop="30dp"
+						android:paddingBottom="29dp"
+						android:textStyle="bold"
+				        />	
+                   	    </LinearLayout>
+
+
+        </ViewFlipper>
+    

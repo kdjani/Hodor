@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hodor</string>
+    <string name="register_handle">Let\'s get started!!</string>
+    <string name="action_settings">settings</string>
+    <string name="recent_activity_title">Hodor</string>
+    <string name="contact_name">NoName</string>
+    <string name="default_sendername">INVITE</string>
+    <string name="invite_buttontext">INVITE</string>
+    <string name="add_buttontext">+</string>
+    <string name="delete_buttontext">Delete</string>
+    <string name="block_buttontext">Block</string>
+    <string name="unblock_buttontext">Unblock</string>
+    <string name="send_dialogtext">Sending Hodor</string>
+    <string name="block_dialogtext">Blocking user</string>
+    <string name="cancel_buttontext">Cancel</string>
+	<string name="create_user">Creating user</string>
+	<string name="deleteaccount_buttontext">Delete account</string>
+	<string name="cancel_login_buttontext">return</string>
+	<string name="login_hint">PICK A COOL NAME!</string>
+	<string name="sms_body">Get Hodor! - http://troupeofvagrants.weebly.com/hodor.html</string>
+	<string name="share_button">Share</string>
+	<string name="rate_button">Rate</string>			
+	<string name="add_hint">TYPE A USER NAME TO ADD</string>			
+	<string name="user_already_exists_text">Dang! This one is already taken. Try other name.</string>			
+</resources>

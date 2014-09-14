@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_background_purple_color">#b46ed6</color>
+    
+	<color name="button_background_green_color">#7bb8b4</color>
+    
+	<color name="button_background_teal_color">#00b6ff</color>
+	
+	<color name="button_background_pink_color">#FF7FED</color>
+	
+	<color name="button_background_orange_color">#527F3F</color>
+	
+	<color name="button_background_red_color">#FF006E</color>
+
+	<color name="button_background_yellow_color">#D5D800</color>
+
+	<color name="button_background_light_blue_color">#75C9FF</color>
+
+	<color name="button_background_slate_color">#7F3F3F</color>
+
+	<color name="button_background_khakhi_color">#007F7F</color>
+
+	<color name="button_background_lavendar_color">#7F92FF</color>
+
+	<color name="button_background_gray_color">#606060</color>
+	
+	<color name="red_2_color">#CB4A68</color>
+	
+	<color name="green_2_color">#7EA996</color>
+	<color name="green_3_color">#9EC37B</color>
+		
+	<color name="blue_2_color">#027299</color>
+	<color name="blue_3_color">#4DC8CB</color>
+		
+	<color name="khakhi_2_color">#CDB555</color>
+	<color name="khakhi_3_color">#8F8771</color>
+	<color name="khakhi_4_color">#A0996A</color>
+		
+	<color name="pink_2_color">#CC7188</color>
+	<color name="pink_3_color">#ED769A</color>
+	<color name="pink_4_color">#E38EFF</color>
+		
+	<color name="violet_2_color">#4B38A1</color>
+	<color name="teal_2_color">#68A7A8</color>
+</resources>
